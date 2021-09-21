@@ -7,11 +7,6 @@ import Dash from "./dash";
 
 export default function Routes() {
   return (
-    // <Switch>
-    //   <Route exact path="/" component={Dash} />
-    //   <Route exact path="/main" component={Main} />
-    //   <Route path="/detail" component={Main} />
-    // </Switch>
     <BrowserRouter>
       <div className="container">
         <Switch>
