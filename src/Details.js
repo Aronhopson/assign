@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import moment from "moment";
 import axios from "axios";
