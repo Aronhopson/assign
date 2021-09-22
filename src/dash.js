@@ -6,10 +6,14 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   return (
-    <div>
-      <p>Dash</p>
-      <Link to="/ma">Main</Link>
-      <Link to="/det">Detail</Link>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        padding: "100px 100px",
+      }}
+    >
+      <Link to="/det">Go to Main Page</Link>
     </div>
   );
 }
